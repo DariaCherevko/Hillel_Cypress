@@ -3,6 +3,10 @@ class HomePage {
         cy.visitWithAuth();
     }
 
+    openSignInModal() {
+        this.signInButton.click();
+    }
+
     get header() {
         return cy.get('header');
     }

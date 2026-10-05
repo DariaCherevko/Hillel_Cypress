@@ -9,13 +9,18 @@
     "cy:run:chrome": "cypress run --browser chrome",
     "cy:run:headed": "cypress run --headed",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "cy:open:qauto": "cypress open --e2e --config-file qauto.config.js",
+    "cy:run:qauto": "cypress run --config-file qauto.config.js",
+    "cy:open:qauto2": "cypress open --e2e --config-file qauto2.config.js",
+    "cy:run:qauto2": "cypress run --config-file qauto2.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^16.1.1",
+    "mochawesome": "^8.1.1",
     "prettier": "^3.9.9"
   }
 }
