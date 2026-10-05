@@ -1,0 +1,14 @@
+{
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 4,
+    "printWidth": 120,
+    "trailingComma": "none",
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": { "tabWidth": 2 }
+        }
+    ]
+}
