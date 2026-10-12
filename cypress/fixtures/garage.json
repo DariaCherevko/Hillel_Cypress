@@ -1,0 +1,12 @@
+{
+  "car": {
+    "brand": "Audi",
+    "model": "TT",
+    "mileage": 500
+  },
+  "expense": {
+    "mileage": 510,
+    "liters": 20,
+    "totalCost": 50
+  }
+}

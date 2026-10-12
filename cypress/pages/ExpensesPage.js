@@ -41,6 +41,10 @@ class ExpensesPage {
     get firstExpenseRow() {
         return this.expenseRows.first();
     }
+
+    get selectedCar() {
+        return cy.get('#carSelectDropdown');
+    }
 }
 
 export default new ExpensesPage();

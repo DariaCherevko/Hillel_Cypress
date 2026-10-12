@@ -6,3 +6,7 @@ Cypress.Commands.add('visitWithAuth', (path = '/') => {
         }
     });
 });
+
+Cypress.Commands.add('createExpense', (expense) => {
+    return cy.request('POST', '/api/expenses', expense);
+});
