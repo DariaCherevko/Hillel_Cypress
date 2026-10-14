@@ -1,7 +1,7 @@
 class LoginModal {
     login(email, password) {
         this.emailInput.type(email);
-        this.passwordInput.type(password, { log: false });
+        this.passwordInput.type(password, { sensitive: true });
         this.loginButton.click();
     }
 
