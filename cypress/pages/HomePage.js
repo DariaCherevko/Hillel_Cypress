@@ -7,6 +7,10 @@ class HomePage {
         this.signInButton.click();
     }
 
+    openRegistrationModal() {
+        this.signUpButton.click();
+    }
+
     get header() {
         return cy.get('header');
     }
@@ -37,6 +41,10 @@ class HomePage {
 
     get signInButton() {
         return this.header.contains('button', 'Sign In');
+    }
+
+    get signUpButton() {
+        return cy.contains('button.hero-descriptor_btn', 'Sign up');
     }
 
     get footer() {
